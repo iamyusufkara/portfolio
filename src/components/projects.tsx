@@ -5,31 +5,43 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import { motion } from "framer-motion";
+import { AiOutlineLink } from "react-icons/ai"; // Füge das Icon für den Link hinzu
+import { useState } from "react"; // useState für das Popup
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogTitle,
+  DialogTrigger,
+} from "@/components/ui/dialog"
 
 const projects = [
-  {
-    title: "Normly AI",
-    status: "Abgeschlossen",
-    image: "/thumbnails/app.jpg",
-    technologies: ["Next.js", "Node.js", "MongoDB", "Prisma", "Pinecone"],
-    link: "#",
-    currentStand: "Status: Auf Basis der Bachelorarbeit", // new addition
-  },
   {
     title: "App",
     status: "Planung",
     image: "/thumbnails/app.jpg",
     technologies: ["React", "React Native", "MongoDB"],
-    link: "#",
+    link: "#", // Link ist "#" und soll ein Popup öffnen
     currentStand: "Status: Anforderungsanalyse", // new addition
+    isPopup: true, // Flag für Popup
   },
   {
-    title: "App 'CRM'",
-    status: "Pausiert",
+    title: "Normly AI",
+    status: "Abgeschlossen",
     image: "/thumbnails/app.jpg",
-    technologies: ["Vue.js", "Express", "PostgreSQL"],
-    link: "#",
-    currentStand: "Status: Keine Ressourcen", // new addition
+    technologies: ["Next.js", "Node.js", "MongoDB", "Prisma", "Pinecone"],
+    link: "https://example.com", // Gültiger Link
+    currentStand: "Auf Basis der Bachelorarbeit", // new addition
+    isPopup: true, // Kein Popup erforderlich
+  },
+  {
+    title: "helpukrainian",
+    status: "Abgeschlossen",
+    image: "/thumbnails/ux_hu_2.jpg",
+    technologies: ["Nutzeranalyse", "User Flow", "High Fidelity-Prototype"],
+    link: "https://www.behance.net/gallery/166361671/helpukrainian", // Link ist "#" und soll ein Popup öffnen
+    currentStand: "Studium", // new addition
+    isPopup: false, // Flag für Popup
   },
 ];
 
@@ -92,9 +104,30 @@ export default function Projects() {
                 </div>
               </CardContent>
               <CardFooter>
-                <Button className="w-full" asChild>
-                  <a href={project.link}>View Project</a>
-                </Button>
+                {project.isPopup ? (
+                  // Dialog wird angezeigt, wenn isPopup true ist und Link "#"
+                  <Dialog>
+                    <DialogTrigger asChild>
+                      <Button className="w-full">View Project</Button>
+                    </DialogTrigger>
+                    <DialogContent>
+                      <DialogTitle>Bald verfügbar!</DialogTitle>
+                      <DialogDescription>
+                        Dieses Projekt wird in Kürze aktualisiert. Bleib dran!
+                      </DialogDescription>
+                    </DialogContent>
+                  </Dialog>
+                ) : (
+                  // Normaler Button für gültige Links
+                  <Button className="w-full" asChild>
+                    <a href={project.link} target="_blank" rel="noopener noreferrer">
+                      <span className="flex items-center justify-between">
+                        <span>View Project</span>
+                        <AiOutlineLink className="ml-2" />
+                      </span>
+                    </a>
+                  </Button>
+                )}
               </CardFooter>
             </Card>
           ))}
