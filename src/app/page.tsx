@@ -44,10 +44,6 @@ export default function Portfolio() {
               <div className="flex justify-between items-start mb-1">
                 <h3 className="font-bold text-slate-800">Kundify</h3>
                 <div className="flex items-center gap-2">
-                  <span className="px-2 py-0.5 bg-blue-100 text-blue-700 rounded-full text-xs font-medium">Web</span>
-                  <span className="px-2 py-0.5 bg-green-100 text-green-700 rounded-full text-xs font-medium">
-                    Mobile
-                  </span>
                   <Link
                     href="https://kundify.de"
                     className="text-xs px-2 py-0.5 bg-amber-50 text-amber-600 rounded-full hover:bg-amber-100 transition-colors"
@@ -67,10 +63,6 @@ export default function Portfolio() {
               <div className="flex justify-between items-start mb-1">
                 <h3 className="font-bold text-slate-800">Asphaltcrew</h3>
                 <div className="flex items-center gap-2">
-                <span className="px-2 py-0.5 bg-blue-100 text-blue-700 rounded-full text-xs font-medium">Web</span>
-                  <span className="px-2 py-0.5 bg-green-100 text-green-700 rounded-full text-xs font-medium">
-                    Mobile
-                  </span>
                   <Link
                     href="https://example.com/taskmanager"
                     className="text-xs px-2 py-0.5 bg-amber-50 text-amber-600 rounded-full hover:bg-amber-100 transition-colors"
@@ -90,10 +82,6 @@ export default function Portfolio() {
               <div className="flex justify-between items-start mb-1">
                 <h3 className="font-bold text-slate-800">Formiki</h3>
                 <div className="flex items-center gap-2">
-                  <span className="px-2 py-0.5 bg-blue-100 text-blue-700 rounded-full text-xs font-medium">Web</span>
-                  <span className="px-2 py-0.5 bg-green-100 text-green-700 rounded-full text-xs font-medium">
-                    Mobile
-                  </span>
                   <Link
                     href="https://example.com/analytics"
                     className="text-xs px-2 py-0.5 bg-amber-50 text-amber-600 rounded-full hover:bg-amber-100 transition-colors"
