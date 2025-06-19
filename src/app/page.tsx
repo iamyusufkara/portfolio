@@ -53,7 +53,7 @@ const projects = [
     description: 'Eine Webanwendung zum Verwalten von Finanzen.',
     tech: ['React', 'Next.js', 'HeroUI'],
     demo: 'https://treso-tau.vercel.app',
-    image: '/coming-soon.png'
+    image: '/treso.png'
   },
   {
     title: 'NormlyAI',
