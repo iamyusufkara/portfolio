@@ -51,7 +51,7 @@ const projects = [
     type: 'Web',
     status: 'Live',
     description: 'Eine Webanwendung zum Verwalten von Finanzen.',
-    tech: ['React', 'Next.js', 'HeroUI'],
+    tech: ['React', 'Next.js', 'TypeScript', 'HeroUI'],
     demo: 'https://treso-tau.vercel.app',
     image: '/treso.png'
   },
