@@ -62,7 +62,7 @@ const projects = [
     description: 'KI-gestütztes Barrierefreiheitstool für Entwickler:innen',
     tech: ['Next.js', 'MongoDB', 'Pinecone'],
     demo: 'https://normly-ai.vercel.app/',
-    image: '/coming-soon.png'
+    image: '/normly.png'
   }
 ]
 
