@@ -28,13 +28,13 @@ const timeline = [
 
 const projects = [
   {
-    title: '???',
-    type: 'Web & Mobile',
-    status: 'Bald verfügbar',
-    description: 'Etwas Großes kommt. Eine Lösung, die die Art verändert, wie wir online denken und handeln. Stay tuned.',
-    tech: ['React', 'React Native'],
-    demo: '#',
-    github: '#',
+    title: 'Jobportal',
+    type: 'Web',
+    status: 'Live in Entwicklung',
+    description: 'Entwicklung eines Jobportals, das Bewerbenden die einfache Suche nach passenden Stellen ermöglicht.',
+    tech: ['Vue', 'Vitest', "TailwindCSS"],
+    demo: 'https://job-search-phi-jade.vercel.app',
+    github: 'https://github.com/iamyusufkara/job-search',
     image: '/coming-soon.png'
   },
   {
@@ -49,7 +49,7 @@ const projects = [
   {
     title: 'Treso',
     type: 'Web',
-    status: 'Live',
+    status: 'Live in Entwicklung',
     description: 'Eine Webanwendung zum Verwalten von Finanzen.',
     tech: ['React', 'Next.js', 'TypeScript', 'HeroUI'],
     demo: 'https://treso-tau.vercel.app',
@@ -59,7 +59,7 @@ const projects = [
     title: 'NormlyAI',
     type: 'Web',
     status: 'Live',
-    description: 'KI-gestütztes Barrierefreiheitstool für Entwickler:innen',
+    description: 'KI-gestütztes Barrierefreiheitstool für Entwickler:innen bon digitalen Systemen',
     tech: ['Next.js', 'MongoDB', 'Pinecone'],
     demo: 'https://normly-ai.vercel.app/',
     image: '/normly.png'
