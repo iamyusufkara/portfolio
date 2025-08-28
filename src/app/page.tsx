@@ -104,7 +104,7 @@ export default function Home() {
     <>
       <Head>
         <title>Yusuf Kara | Portfolio</title>
-        <meta name="description" content="Portfolio von Talha Günes, Webentwickler aus Deutschland" />
+        <meta name="description" content="Portfolio von Yusuf Kara" />
       </Head>
 
       <header className="fixed top-4 left-1/2 -translate-x-1/2 z-40 bg-white/90 dark:bg-black/90 backdrop-blur-md px-6 py-3 flex justify-center items-center text-sm font-medium shadow rounded-full max-w-fit mx-auto">
