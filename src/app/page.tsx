@@ -35,7 +35,7 @@ const projects = [
     tech: ['Vue', 'Vitest', "TailwindCSS"],
     demo: 'https://job-search-phi-jade.vercel.app',
     github: 'https://github.com/iamyusufkara/job-search',
-    image: '/coming-soon.png'
+    image: '/hirely.png'
   },
   {
     title: 'Kundify',
