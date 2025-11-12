@@ -7,7 +7,7 @@ import { Moon, Sun } from "lucide-react"
 import { useTheme } from "@/contexts/theme-context"
 
 interface NavigationProps {
-  containerRef?: RefObject<HTMLDivElement>
+  containerRef: React.RefObject<HTMLDivElement | null>
 }
 
 export function Navigation({ containerRef }: NavigationProps) {

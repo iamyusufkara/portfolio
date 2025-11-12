@@ -1,12 +1,10 @@
 "use client"
 
-import { Navigation } from "@/components/navigation"
 import { ExternalLink } from "lucide-react"
 
 export default function TaskMasterPage() {
   return (
     <>
-      <Navigation />
       <div className="min-h-screen bg-background px-4 md:px-8 lg:px-16 xl:px-24 py-20 md:py-24 transition-colors duration-300">
         <div className="max-w-5xl mx-auto">
           <div className="mb-12 md:mb-16 text-center">

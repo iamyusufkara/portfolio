@@ -89,7 +89,7 @@ const ClubHrw = () => {
 }
 
 export default function Home() {
-  const containerRef = useRef<HTMLDivElement>(null)
+  const containerRef = useRef<HTMLDivElement | null>(null)
 
   useEffect(() => {
     const container = containerRef.current
