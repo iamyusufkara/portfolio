@@ -5,8 +5,8 @@ export function HeroSection() {
     <section className="min-w-full h-screen snap-start flex items-center justify-center bg-background px-4 md:px-8 pt-16 md:pt-24">
       <div className="max-w-4xl text-center space-y-4 md:space-y-8">
         <div className="flex justify-center mb-4 md:mb-8">
-          <div className="w-20 h-20 md:w-32 md:h-32 rounded-full bg-gradient-to-br from-gray-200 to-gray-300 dark:from-gray-700 dark:to-gray-600 flex items-center justify-center overflow-hidden">
-            <img src="/professional-profile.png" alt="Profilbild" className="w-full h-full object-cover" />
+          <div className="w-20 h-20 md:w-64 md:h-64 rounded-[25px] bg-gradient-to-br from-gray-200 to-gray-300 dark:from-gray-700 dark:to-gray-600 flex items-center justify-center overflow-hidden">
+            <img src="/profile-image.jpg" alt="Profilbild" className="w-full h-full object-cover" />
           </div>
         </div>
 

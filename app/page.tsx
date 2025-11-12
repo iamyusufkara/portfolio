@@ -24,15 +24,11 @@ const Kundify = () => {
             <span className="px-2 md:px-3 py-1 bg-blue-600 dark:bg-blue-500 text-white text-xs font-bold rounded-full uppercase tracking-wide">
               UX Design
             </span>
-            <span className="px-2 md:px-3 py-1 bg-blue-600 dark:bg-blue-500 text-white text-xs font-bold rounded-full uppercase tracking-wide">
-              Entwicklung
-            </span>
             <span className="text-blue-700 dark:text-blue-300 font-medium text-xs md:text-sm uppercase tracking-wider">
-              Web · Mobile
+              Mobile
             </span>
           </div>
           <h2 className="text-2xl md:text-5xl lg:text-6xl font-bold text-foreground">Kundify</h2>
-          <p className="text-base md:text-2xl text-muted-foreground">Großes Eigenprojekt</p>
           <p className="text-sm md:text-lg text-muted-foreground leading-relaxed md:leading-relaxed">
             Kundify vereint Kundenverwaltung, Auftragsmanagement und Buchungssystem in einer einzigen, modularen Plattform.
           </p>
@@ -67,11 +63,10 @@ const ClubHrw = () => {
               UX Design
             </span>
             <span className="text-blue-700 dark:text-blue-300 font-medium text-xs md:text-sm uppercase tracking-wider">
-              Web · Desktop
+              Mobile
             </span>
           </div>
           <h2 className="text-2xl md:text-5xl lg:text-6xl font-bold text-foreground">ClubHRW</h2>
-          <p className="text-base md:text-2xl text-muted-foreground">Uniprojekt</p>
           <p className="text-sm md:text-lg text-muted-foreground leading-relaxed md:leading-relaxed">
             ClubHRW verbindet Studierende der Hochschule Ruhr West, erleichtert den Austausch und bietet Raum für Gruppen, Ideen und Events. <br />
             <b>// Redesign geplant //</b>
